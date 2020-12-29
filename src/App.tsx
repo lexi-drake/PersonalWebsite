@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Helmet } from 'react-helmet';
 
 interface JobEntry {
   title: string;
@@ -17,6 +18,8 @@ interface EducationEntry {
 
 function App() {
 
+  const title: string = "Alexa Drake - Resume"
+
   const jobHistory: JobEntry[] = [
     { title: "Lead Engineer", employer: "QBE Digital Innovation Lab", startDate: "August 2020", endDate: "Present" },
     { title: "Technical Lead", employer: "Nvisia", startDate: "July 2019", endDate: "August 202" },
@@ -32,25 +35,28 @@ function App() {
   ];
 
   return (
-    <div className="App">
-      <h1>Alexa Drake</h1>
-      <div className="employment">
-        <h2>Employment History</h2>
-        {jobHistory.map(x =>
-          <div>
-            <strong>{x.title}, {x.employer}</strong><br />
-            <i>{x.startDate} through {x.endDate}</i>
-          </div>)}
+    <Helmet>
+      <title>{title}</title>
+      <div className="App">
+        <h1>Alexa Drake</h1>
+        <div className="employment">
+          <h2>Employment History</h2>
+          {jobHistory.map(x =>
+            <div>
+              <strong>{x.title}, {x.employer}</strong><br />
+              <i>{x.startDate} through {x.endDate}</i>
+            </div>)}
+        </div>
+        <div className="education">
+          <h2>Education</h2>
+          {educationHistory.map(x =>
+            <div>
+              <strong>{x.degree}, {x.field}</strong><br />
+              <i>{x.year}, {x.school}</i>
+            </div>)}
+        </div>
       </div>
-      <div className="education">
-        <h2>Education</h2>
-        {educationHistory.map(x =>
-          <div>
-            <strong>{x.degree}, {x.field}</strong><br />
-            <i>{x.year}, {x.school}</i>
-          </div>)}
-      </div>
-    </div>
+    </Helmet>
   );
 }
 
