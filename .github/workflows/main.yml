@@ -27,6 +27,6 @@ jobs:
         username: ${{ secrets.REMOTE_USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-        source: "./build/"
+        source: "./build/*"
         target: ${{ secrets.REMOTE_DIR }}
         strip_components: 1
