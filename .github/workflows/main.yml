@@ -30,3 +30,4 @@ jobs:
         rm: true
         source: "./build/"
         target: ${{ secrets.REMOTE_DIR }}
+        overwrite: true
