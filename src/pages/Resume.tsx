@@ -28,7 +28,7 @@ const Resume = (props: ResumeProps) => {
     return (
         <Container>
             <Header>
-                <h1>alexadrake.rocks</h1>
+                <h1>Alexa Drake</h1>
             </Header>
             <Section>
                 <h1>Employment history</h1>
@@ -40,8 +40,8 @@ const Resume = (props: ResumeProps) => {
             </Section>
             <Section>
                 <h1>Links & contact</h1>
-                <a href="github.com/lexi-drake" target="_blank" rel="noreferrer">github</a>
                 <a href="letskeepit.cheap" target="_blank" rel="noreferrer">letskeepit.cheap</a>
+                <a href="github.com/lexi-drake" target="_blank" rel="noreferrer">github</a>
                 <a href="mailto:alexa11drake@gmail.com">email</a>
             </Section>
         </Container>
