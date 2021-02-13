@@ -12,7 +12,7 @@ interface ResumeProps {
 
 const Resume = (props: ResumeProps) => {
     const jobHistory: JobEntry[] = [
-        { title: "Lead Engineer", employer: "QBE Digital Innovation Lab", startDate: "August 2020", endDate: "Present" },
+        { title: "Lead Software Engineer", employer: "QBE Digital Innovation Lab", startDate: "August 2020", endDate: "Present" },
         { title: "Technical Lead", employer: "Nvisia", startDate: "July 2019", endDate: "August 202" },
         { title: "Backend Developer", employer: "Fetch Rewards", startDate: "January 2019", endDate: "June 2019" },
         { title: "Lead Researcher", employer: "QBE Digital Innovation Lab", startDate: "May 2017", endDate: "May 2018" },
