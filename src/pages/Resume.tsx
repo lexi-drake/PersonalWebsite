@@ -40,8 +40,8 @@ const Resume = (props: ResumeProps) => {
             </Section>
             <Section>
                 <h1>Links & contact</h1>
-                <a href="letskeepit.cheap" target="_blank" rel="noreferrer">letskeepit.cheap</a>
-                <a href="github.com/lexi-drake" target="_blank" rel="noreferrer">github</a>
+                <a href="https://letskeepit.cheap" target="_blank" rel="noreferrer">letskeepit.cheap</a>
+                <a href="https://github.com/lexi-drake" target="_blank" rel="noreferrer">github</a>
                 <a href="mailto:alexa11drake@gmail.com">email</a>
             </Section>
         </Container>
