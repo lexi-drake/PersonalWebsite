@@ -1,10 +1,15 @@
 .employment-history
     @extend %content
-    grid-column: 6 / 12
-    grid-row: 5 / 11
+    grid-column: 5 / 11
+    grid-row: 3 / 9
 
     .job-entry
         margin: 6px 0px 8px 0px
 
         .title
             font-weight: bold
+
+@media only screen and (max-width: 600px)
+    .employment-history
+        grid-column: 2 / 8
+        grid-row: 2 / 8
