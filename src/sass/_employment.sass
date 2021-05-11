@@ -3,13 +3,21 @@
     grid-column: 8 / 14
     grid-row: 3 / 9
 
+    .title
+        white-space: nowrap
+
     .job-entry
         margin: 6px 0px 8px 0px
 
-        .title
+        .job-title
             font-weight: bold
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: $mobile-medium)
     .employment-history
         grid-column: 3 / 8
         grid-row: 2 / 7
+
+@media only screen and (max-width: $mobile-small)
+    .employment-history
+        .title
+            white-space: pre-wrap

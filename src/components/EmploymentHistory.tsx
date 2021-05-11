@@ -16,6 +16,6 @@ interface JobEntryComponentProps {
 
 const JobEntryComponent = (props: JobEntryComponentProps) =>
     <div className="job-entry">
-        <div className="title">{props.entry.title}, {props.entry.employer}</div>
+        <div className="job-title">{props.entry.title}, {props.entry.employer}</div>
         <div className="dates">{props.entry.startDate} through {props.entry.endDate}</div>
     </div>;

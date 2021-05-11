@@ -8,17 +8,21 @@
     text-align: left
     margin: 69px 30% 69px 30%
 
-@media only screen and (max-width: 1069px)
+%content
+    padding: 6px
+
+@media only screen and (max-width: $mobile-large)
     .container
         margin: 69px 69px 69px 69px
 
-@media only screen and (max-width: 750px)
+@media only screen and (max-width: $mobile-medium)
     .container
         grid-template-columns: repeat(7, 55px)
         grid-template-rows: repeat(14, 1fr)
         grid-column-gap: 0px
         grid-row-gap: 0px
-        margin: 0px 0px 0px 0px
+        margin: 0px 10% 0px 10%
 
-%content
-    padding: 6px
+@media only screen and (max-width: $mobile-small)
+    .container
+        margin: 0px
