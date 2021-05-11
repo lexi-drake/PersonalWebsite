@@ -4,8 +4,10 @@ import Title from './Title';
 
 const EducationHistory = (props: any) =>
     <div className="education-history">
-        <Title><h1>Education</h1></Title>
-        {educationHistory.map(x => <EducationEntryComponent entry={x} />)}
+        <div className="content">
+            <Title><h1>Education</h1></Title>
+            {educationHistory.map(x => <EducationEntryComponent key={x.degree} entry={x} />)}
+        </div>
     </div>;
 
 export default EducationHistory;

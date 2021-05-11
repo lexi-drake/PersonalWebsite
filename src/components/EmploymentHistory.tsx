@@ -5,7 +5,7 @@ import Title from './Title';
 const EmploymentHistory = (props: any) =>
     <div className="employment-history">
         <Title><h1>Employment history</h1></Title>
-        {jobHistory.map(x => <JobEntryComponent entry={x} />)}
+        {jobHistory.map(x => <JobEntryComponent key={x.title} entry={x} />)}
     </div>;
 
 export default EmploymentHistory;
