@@ -23,8 +23,9 @@ const Bio = (props: BioProps) =>
             knowing enough.
         </p>
         <p>
-            Alexa approaches software-development with enthusiasm and creativity. She has been
-            known to ask coworkers how she can be a better team-mate.
+            When not writing code, Alexa can be found hiking with her dog, tending to her
+            vegetable garden, or working on a home-maintenance or remodel project. She approaches
+            everything she does with enthusiasm and creativity.
         </p>
     </div>;
 

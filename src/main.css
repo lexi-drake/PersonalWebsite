@@ -43,7 +43,7 @@ p {
     margin: 0px;
   }
 }
-.education-history, .employment-history, .links, .bio, .title {
+.education-history, .employment-history, .links, .bio {
   background-color: #35343a;
   color: #fbf7f6;
   padding: 6px;
@@ -64,16 +64,6 @@ p {
   background-color: #fbf7f6;
   width: 45%;
   height: 4px;
-}
-
-h1 {
-  font-size: 32px;
-  line-height: 35px;
-  margin: 0px;
-}
-
-p {
-  margin: 0px;
 }
 
 .bio {
