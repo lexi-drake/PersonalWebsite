@@ -65,7 +65,7 @@ p {
 }
 .title .accent {
   background-color: #35343a;
-  width: 45%;
+  width: 100px;
   height: 4px;
 }
 
@@ -78,13 +78,16 @@ p {
   margin: 0px 0px 16px 0px;
 }
 .bio .accent {
-  margin-left: 55%;
+  margin-left: 170px;
 }
 
 @media only screen and (max-width: 800px) {
   .bio {
     grid-column: 1/6;
     grid-row: 7/13;
+  }
+  .bio .accent {
+    margin-left: 163px;
   }
 }
 .links {
