@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import EducationHistory from "../components/EducationHistory";
+import Header from '../components/Header';
 import Bio from "../components/Bio";
 import RelevantLinks from '../components/RelevantLinks';
 import EmploymentHistory from "../components/EmploymentHistory";
@@ -7,7 +8,7 @@ import EmploymentHistory from "../components/EmploymentHistory";
 
 const Resume = (props: any) =>
     <Container>
-        <h1 className="header">Alexa Drake</h1>
+        <Header />
         <Bio />
         <EmploymentHistory />
         <EducationHistory />
